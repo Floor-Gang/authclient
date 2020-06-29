@@ -54,3 +54,8 @@ Finally run this to get the library
 ```shell script
 $ go get github.com/Floor-Gang/authclient@latest
 ```
+
+## Versioning
+`X.Y`
+ - X: A major change has happened, please update your code.
+ - Y: A patch was implemented.
