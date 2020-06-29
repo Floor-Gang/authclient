@@ -1,3 +1,3 @@
-module auth_client
+module authclient
 
 go 1.14
