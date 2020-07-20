@@ -17,8 +17,8 @@ type SubCommand struct {
 
 // Response from the server while registering.
 type RegisterResponse struct {
-	Registered bool
-	Token      string
+	Token   string // A Discord bot access token
+	Serving string // The ID of the Guild being served
 }
 
 func (ac AuthClient) Register(feature Feature) (RegisterResponse, error) {
